@@ -38,8 +38,22 @@ if (n === 0 || n === '' || n === null || n === undefined) {
 // 5. Виведіть на екран повідомлення, якщо в корзині від двох до п'яти яблук:
 
 n = 4;
-if (n > 1 && n < 6) {
-	console.log('В корзині декілька яблук');
+switch (n) {
+	case 2:
+		console.log('В корзині декілька яблук');
+		break;
+	case 3:
+		console.log('В корзині декілька яблук');
+		break;
+	case 4:
+		console.log('В корзині декілька яблук');
+		break;
+	case 5:
+		console.log('В корзині декілька яблук');
+		break;
+	default:
+		console.log('Невідома кількість яблук');
+		break;
 }
 
 
